@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-hello-world", "csharp-hello-world\csharp-hello-world.csproj", "{A63F30FA-ED3F-4EEB-ABB4-AE8B3A71AFDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-hello-world.Tests", "csharp-hello-world.Tests\csharp-hello-world.Tests.csproj", "{28BC0FC1-7C8D-405E-9BD5-0A4BA59671CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A63F30FA-ED3F-4EEB-ABB4-AE8B3A71AFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63F30FA-ED3F-4EEB-ABB4-AE8B3A71AFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63F30FA-ED3F-4EEB-ABB4-AE8B3A71AFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63F30FA-ED3F-4EEB-ABB4-AE8B3A71AFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BC0FC1-7C8D-405E-9BD5-0A4BA59671CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BC0FC1-7C8D-405E-9BD5-0A4BA59671CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BC0FC1-7C8D-405E-9BD5-0A4BA59671CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BC0FC1-7C8D-405E-9BD5-0A4BA59671CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C4F691A-2B87-410A-AC82-BF123062E47C}
+	EndGlobalSection
+EndGlobal
