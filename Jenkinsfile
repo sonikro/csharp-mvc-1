@@ -8,7 +8,9 @@ node(){
         '''
     }
     stage("Build"){
-
+        powershell '''
+            msbuild csharp-hello-world.sln /t:Clean,Build /p:Platform="Any CPU" /p:Configuration="Release" /nologo /p:OutputPath="%RootPath%\\build"
+        '''
     }
     stage("Publish"){
 
