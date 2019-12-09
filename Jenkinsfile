@@ -8,16 +8,13 @@ node(){
                 nuget restore csharp-hello-world.sln
             '''
         }
-        stage("Build"){
+        stage("Build and Publish"){
             powershell '''
-                msbuild csharp-hello-world.sln /t:Clean,Build /p:Platform="Any CPU" /p:Configuration="Release" /nologo /p:OutputPath="%RootPath%\\build"
+                msbuild csharp-hello-world.sln /t:Clean,Build /p:Platform="Any CPU" /p:Configuration="Release" /nologo /p:OutputPath="build"
             '''
         }
-        stage("Publish"){
-
-        }
     } catch (e){
-
+        throw e
     } finally {
         cleanWs()
     }

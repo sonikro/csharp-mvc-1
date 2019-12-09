@@ -1,6 +1,7 @@
 ###################
 # compiled source #
 ###################
+build/
 .vs/
 *.com
 *.class
